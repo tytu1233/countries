@@ -13,6 +13,7 @@ const CountryDetails = () => {
         <Image src={`${country?.flags}`} />
       </ImageBox>
       <InfoDiv>
+        <p>eloeloelo</p>
         <p>Name: {country?.name}</p>
         <p>Capital: {country?.capital[0]}</p>
         <p>Region: {country?.region}</p>
