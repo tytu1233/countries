@@ -33,7 +33,11 @@ const CountryPage = () => {
     <>
       <Container>
         <div>
-          <input onChange={onInputChange} type="text" />
+          <input
+            onChange={onInputChange}
+            type="text"
+            placeholder="Search by name"
+          />
         </div>
         <div>
           <select onChange={onSelectChange}>
@@ -64,7 +68,6 @@ const CountriesWrapper = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
-}
 `;
 
 const Container = styled.div`

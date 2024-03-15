@@ -10,7 +10,6 @@ export const useGetCountry = (id: string | undefined) => {
         ? `https://restcountries.com/v3.1/name/${id}`
         : `https://restcountries.com/v3.1/alpha/${id}`;
 
-    console.log(url);
     const fetchCountry = async () => {
       const country = await fetch(url);
       const countryResponse = await country.json();
