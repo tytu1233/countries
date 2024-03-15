@@ -25,3 +25,9 @@ Screens:
 - filters:
 
  ![image](https://github.com/tytu1233/countries/assets/79943154/126988f3-40b8-44b3-b450-2c6987403d02)
+
+
+
+- reponsive:
+
+  ![image](https://github.com/tytu1233/countries/assets/79943154/406edb02-7ee5-47df-87e8-eecb8dde00fa)
